@@ -1,1 +1,4 @@
-
+My bot answers a range of questions by retrieving the correct webpage and reading through the article to find the answer. Some questions that my bot processes wrongly are questions that require a specific answer (e.g. "How tall was the Berlin Wall?" or "Where is the shortest border in the world?"). Also, sometimes my bot skips to the again() function of some more specific questions. However, it is good at answering simpler questions and questions about people.
+I found a bug in my code, where on some questions, it may print the same answer twice (e.g."Who was Winston Churchill?")
+To improve my code, I could check the webpage for more specific information, therefore narrowing down the posibilities and giving a more specific answer. I could also make the program more complex, one way would be to give the user the option to open the webpage using the webrowser module (webrowser.open).
+As a conclusion, I think that my code is great for simple questions like "who is", "when was" and "what is", but could be improved to have an advanced searching system, to search more deeply and specifically into the webpage.
